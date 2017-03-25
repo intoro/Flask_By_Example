@@ -1,0 +1,44 @@
+sudo apt-get update
+sudo apt-get install python-pip
+
+pip install flask
+sudo apt-get update
+sudo apt-get install git
+
+git remote add origin https://github.com/intoro/Flask_By_Example.git
+
+
+
+echo "# Flask_By_Example" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/intoro/Flask_By_Example.git
+git push -u origin master
+
+git config --global user.email "tmcs.brian@gmail.com"
+git config --global user.name "intoro"
+
+git add hello.py
+git commit -m "Initial commit"
+git push -u origin master
+
+git clone https://github.com/intoro/Flask_By_Example.git
+
+git commit -m "Basic Rss"
+
+sudo tail –fn 20 /var/log/nginx/error.log
+
+pip install feedparser
+
+git branch post-requests
+git checkout post-requests
+
+git add .py
+git add templates/home.html
+git commit -m "Using post"
+git checkout master
+
+
+
+.
